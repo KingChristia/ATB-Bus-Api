@@ -1,0 +1,47 @@
+<VehicleActivity>
+<RecordedAtTime>2024-08-13T16:15:25.171+02:00</RecordedAtTime>
+<ValidUntilTime>2024-08-13T16:21:58+02:00</ValidUntilTime>
+<VehicleMonitoringRef>8830</VehicleMonitoringRef>
+<ProgressBetweenStops/>
+<MonitoredVehicleJourney>
+<LineRef>ATB:Line:2_22</LineRef>
+<DirectionRef>Inbound</DirectionRef>
+<FramedVehicleJourneyRef>
+<DataFrameRef>2024-08-13</DataFrameRef>
+<DatedVehicleJourneyRef>ATB:ServiceJourney:22_231010143059081_87</DatedVehicleJourneyRef>
+</FramedVehicleJourneyRef>
+<VehicleMode>bus</VehicleMode>
+<PublishedLineName>22</PublishedLineName>
+<OperatorRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="OperationalUnitRefStructure">ATB:Operator:171</OperatorRef>
+<OriginRef>NSR:Quay:73030</OriginRef>
+<OriginName>Strinda vgs.</OriginName>
+<DestinationRef>NSR:Quay:72101</DestinationRef>
+<DestinationName>Vestlia</DestinationName>
+<Monitored>true</Monitored>
+<DataSource>ATB</DataSource>
+<VehicleLocation srsName="WGS84">
+<Longitude>10.437053</Longitude>
+<Latitude>63.4273267</Latitude>
+</VehicleLocation>
+<Bearing>272.0</Bearing>
+<Delay>PT2M22S</Delay>
+<VehicleStatus>inProgress</VehicleStatus>
+<VehicleJourneyRef>ATB:ServiceJourney:22_231010143059081_87</VehicleJourneyRef>
+<VehicleRef>8830</VehicleRef>
+<MonitoredCall>
+<StopPointRef>NSR:Quay:71659</StopPointRef>
+<VisitNumber>6</VisitNumber>
+<Order>6</Order>
+<StopPointName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="DefaultedTextStructure">Tyholt</StopPointName>
+<VehicleAtStop>false</VehicleAtStop>
+<DestinationDisplay>Vestlia via sentrum-Othilienborg</DestinationDisplay>
+<AimedArrivalTime>2024-08-13T16:14:00+02:00</AimedArrivalTime>
+<ExpectedArrivalTime>2024-08-13T16:16:08+02:00</ExpectedArrivalTime>
+<ArrivalStatus>delayed</ArrivalStatus>
+<ArrivalBoardingActivity>alighting</ArrivalBoardingActivity>
+<AimedDepartureTime>2024-08-13T16:14:00+02:00</AimedDepartureTime>
+<ExpectedDepartureTime>2024-08-13T16:16:22+02:00</ExpectedDepartureTime>
+<DepartureBoardingActivity>boarding</DepartureBoardingActivity>
+</MonitoredCall>
+</MonitoredVehicleJourney>
+</VehicleActivity>
