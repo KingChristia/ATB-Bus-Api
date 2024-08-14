@@ -1,0 +1,5 @@
+#i want all dependencies from main.py to be installed in requirements.txt
+pandas
+numpy
+requests
+"fastapi[standard]"
