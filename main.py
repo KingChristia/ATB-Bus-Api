@@ -15,12 +15,15 @@ def read_root():
     busID = res[0]["vehicle_ref"]
     if busID != "N/A":
         geo = getLocation(busID)
-        print(geo)
-    # print(res)
-    return {
+        return {
         "inbound": res[:2],
         "geo": geo
         }
+    return {
+        "inbound": res[:2]
+        }
+    # print(res)
+    
 
 
 @app.get("/items/{item_id}")
@@ -112,7 +115,7 @@ def modifyApi():
                                         #     if previous_expected_arrival_time
                                         #     else None
                                         # ),
-                                        # "expected_arrival_timestamp": expectedArrivalTime.text,
+                                        "expected_arrival_timestamp": expectedArrivalTime.text,
                                         "vehicle_ref": (
                                             vehicle_ref.text
                                             if vehicle_ref is not None
@@ -135,7 +138,7 @@ def modifyApi():
                             # )
 
         # Sort journey data by the `expected_arrival_timestamp` in ascending order
-        journey_data.sort(key=lambda x: x["expected_arrival_time"])
+        journey_data.sort(key=lambda x: x["expected_arrival_timestamp"])
 
         return journey_data
 
