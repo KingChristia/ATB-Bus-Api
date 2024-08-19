@@ -16,4 +16,5 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           cd /var/www/ATB-Bus-22-api/
+          chmod +x build.sh
           ./build.sh
