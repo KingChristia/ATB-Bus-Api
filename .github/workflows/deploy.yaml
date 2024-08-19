@@ -14,4 +14,6 @@ jobs:
         key: ${{ secrets.KEY }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        script: ls -la
+        script: |
+          cd /var/www/ATB-Bus-22-api/
+          ./build.sh
