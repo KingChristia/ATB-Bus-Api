@@ -71,7 +71,7 @@ Example usage with Shortcut app on iOS used on homescreen for quick access to bu
 
 1\. **Clone the Repository**
 ``` bash
-   git clone https://github.com/KingChristia/ATB-Bus-22-api
+   git clone https://github.com/KingChristia/ATB-Bus-Api
    cd ATB-Bus-22-api
 ```
 
